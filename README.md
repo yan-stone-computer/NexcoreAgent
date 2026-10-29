@@ -5,6 +5,8 @@
 
 This framework is the coordination layer extracted from NexcoreWork:
 
+![NexcoreAgent composition](docs/framework.svg)
+
 ```text
 document / image
   → NexcoreFileRead / NexcoreVision
