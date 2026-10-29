@@ -47,7 +47,7 @@ export type ModelResult = {
 
 export type ModelRequest = {
   messages: ChatMessage[];
-  tools: ToolDefinition[];
+  tools: Array<Pick<ToolDefinition, "name" | "description" | "risk">>;
   signal?: AbortSignal;
 };
 

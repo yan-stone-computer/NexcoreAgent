@@ -81,7 +81,11 @@ export class NexcoreAgent {
       }
       messages.splice(0, messages.length, ...governed.messages);
       await this.emit({ type: "context.governed", actions: governed.actions });
-      const reply = await this.options.model.complete({ messages, tools: [...this.tools.values()], signal: input.signal });
+      const reply = await this.options.model.complete({
+        messages,
+        tools: [...this.tools.values()].map(({ name, description, risk }) => ({ name, description, risk })),
+        signal: input.signal
+      });
       usage.inputTokens += Number(reply.usage?.inputTokens) || 0;
       usage.outputTokens += Number(reply.usage?.outputTokens) || 0;
       usage.cost += Number(reply.usage?.cost) || 0;
