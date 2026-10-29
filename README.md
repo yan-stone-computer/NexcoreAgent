@@ -83,6 +83,7 @@ the host.
 - [NexcoreMemory](https://github.com/yan-stone-computer/NexcoreMemory)
 - [NexcoreFileRead](https://github.com/yan-stone-computer/NexcoreFileRead)
 - [NexcoreVision](https://github.com/yan-stone-computer/NexcoreVision)
+- [NexcoreToolGuard](https://github.com/yan-stone-computer/NexcoreToolGuard)
 
 Each adapter is optional. The host can use the complete NexcoreWork application, selected modules,
 or another implementation with the same contract.
