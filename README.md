@@ -8,7 +8,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933.svg)](https://nodejs.org/)
 [![Dependencies](https://img.shields.io/badge/runtime_dependencies-0-2563eb.svg)](package.json)
 
-![NexcoreAgent composition](docs/framework.svg)
+![NexcoreAgent composition](docs/framework.png)
 
 NexcoreAgent 是从 [NexcoreWork](https://github.com/yan-stone-computer/nexcorework-site)
 抽出的 **thin agent loop**。它不绑定模型 SDK，不藏一套数据库，也不要求把文件、记忆和视觉能力
