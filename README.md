@@ -8,7 +8,13 @@
 [![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933.svg)](https://nodejs.org/)
 [![Dependencies](https://img.shields.io/badge/runtime_dependencies-0-2563eb.svg)](package.json)
 
-![NexcoreAgent composition](https://raw.githubusercontent.com/yan-stone-computer/NexcoreAgent/main/docs/framework.png)
+![NexcoreAgent composition](https://cdn.jsdelivr.net/gh/yan-stone-computer/NexcoreAgent@main/docs/framework.png)
+
+### From the running product
+
+![NexcoreWork execution and self-check](https://cdn.jsdelivr.net/gh/yan-stone-computer/NexcoreAgent@main/docs/product-execution.webp)
+
+这不是概念稿：右侧运行状态、工具调用、文件产出与自检表都来自 NexcoreWork 的真实执行记录。
 
 NexcoreAgent 是从 [NexcoreWork](https://github.com/yan-stone-computer/nexcorework-site)
 抽出的 **thin agent loop**。它不绑定模型 SDK，不藏一套数据库，也不要求把文件、记忆和视觉能力
